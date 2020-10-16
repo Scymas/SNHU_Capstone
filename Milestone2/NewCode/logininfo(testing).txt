@@ -1,0 +1,7 @@
+Zookeeper Passwords: OceanBoats89, NBA_Lakers87x_
+Admin Passwords: Apples, KarMa6
+Vet Passwords: Cats75, giant_bear2
+
+Zookeeper Usernames : {griffin.keys , donald.monkey}
+Admin Usernames : {rosario.dawson , bruce.grizzlybear}
+Vet Passwords: {bernie.gorilla , jerome.grizzlybear}
