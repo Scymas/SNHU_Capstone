@@ -72,7 +72,7 @@ def FileOpen(userFileSelect):
         print("\n")
         LogOut()
 
-    if userFileSelect == "veterinarian"  # Reads the veterinarian file and prints
+    if userFileSelect == "veterinarian":  # Reads the veterinarian file and prints
         file3 = open("veterinarian.txt", "r")
         print(file3.read())
         print("\n")
@@ -89,16 +89,18 @@ def LogOut():
     print("1 - Logout and return to menu")
     print("2 - Exit")
 
-    logoutSelection = input()
-
     while logoutLoop:  # Logout loop is used to ensure user is kept in logout menu until they select 1 or 2
 
+        logoutSelection = input()
+
         if logoutSelection == '1':
+            logoutLoop = False
             main()  # Returns user to main function
 
-        if logoutSelection == '2':
+        elif logoutSelection == '2':
             print("Goodbye!")
             sys.exit()  # Exits / terminates the program
+
         else:
             print("Error, please type 1 or 2\n")
             continue
@@ -110,9 +112,10 @@ def main():
     menu = True
     attempts = 3
 
+    print("Welcome to the authentication system.")
+
     while menu:  # Menu loop for login attempts
 
-        print("Welcome to the authentication system.")
         print("Please enter a number to continue: \n1-Login \n2-Exit")
         menuSelection = input()
 
@@ -142,6 +145,7 @@ def main():
                 else:
                     print("Invalid user name!\n")
                     attempts -= 1  # Subtracts 1 attempt from counter
+                    print(attempts, "Attempt(s) left\n")
 
                     if attempts == 0:
                         print("\nOut of login attempts. Goodbye!")
@@ -162,16 +166,17 @@ def main():
                 if yesNo in ['y', 'Y']:
                     print("Goodbye!")
                     sys.exit()  # Exits if user input is Y or y
-                    break
+
                 elif yesNo in ['n', 'N']:
                     yesNoLoop = False  # Ends loop and returns to main if user input is n or N
                     main()
+
                 else:
                     print("Error, please type y or n!")  # Error message ( not y/Y or n/N)
                     continue # Loop
         else:
             print("\nError, please enter 1 or 2\n\n")  # Menu options, if user does not input 1 or  2
-            continue # Loop
+            continue  # Loop
 
 
 if __name__ == "__main__":
