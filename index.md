@@ -8,7 +8,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Test
 
-``python
+```python
 
 def MD5ConversionFunc(userPassword, Type):
     original = userPassword
