@@ -5,6 +5,28 @@ You can use the [editor on GitHub](https://github.com/Scymas/SNHU_Capstone/edit/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+
+### Test
+
+``python
+
+def MD5ConversionFunc(userPassword, Type):
+    original = userPassword
+    userType = Type
+
+    hashed = hashlib.md5(original.encode())  # uses hashlib to encode hashed password
+
+    hashed2 = hashed.hexdigest()  # returns the digest for the hashed pass; returns as string containing only -
+    # hexadecimals
+
+    passCheck(hashed2, userType)
+
+    return hashed2  # Returns hashed password for unit testing
+
+
+
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
