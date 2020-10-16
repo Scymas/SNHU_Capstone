@@ -10,7 +10,7 @@ There are three programs within this repository - showing different computer sci
 2. Algorithms and Data Structures - Improve efficiency
 3. Databases - Create a MongoDB interface with HTML/JavaScript
 
-### Milestone 2 (Software Design and Engineering) information: 
+## Milestone 2 (Software Design and Engineering) information: 
 The Milestone 2 folder contains the program for the Milestone 2 project and part 1 of the final project. 
 There are two folders within this directory; one has the old Java program, and one has the converted Python program.
 
