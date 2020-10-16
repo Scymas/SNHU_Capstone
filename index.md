@@ -1,4 +1,5 @@
-## Schuyler Enneman - SNHU ePortfolio
+# Schuyler Enneman - SNHU Capstone ePortfolio
+## CS-499
 
 You can use the [editor on GitHub](https://github.com/Scymas/SNHU_Capstone/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
