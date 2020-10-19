@@ -2,6 +2,15 @@
 // CS-260-J1540
 // 3-2 Programming Activity: Lists and Searching
 
+/* This file is the basis for the Milestone 3 project
+   This file uses seperate csv data and uses it within the data structures; this particular - 
+   data structure uses a linked list with a sort algorithm. This involves setting pointers - 
+   along with having the correct csv data availbile. A seperate parser is also needed for -
+   the data reading. The new code (Python) is inspired by this project but with a combination - 
+   of binary trees using multiple traversal methods. 
+*/
+
+
 #include <algorithm>
 #include <iostream>
 #include <time.h>
