@@ -18,7 +18,7 @@ main difference is the MD5 hash function is quite a bit different in Python; and
 standard way in Java. I added a few improvements to this project; including better login functionallity, MD5 password
 checking, and improved read speeds. 
 
-*The .txt files are required for progrma functionality!*
+**The .txt files are required for progrma functionality!**
 
 ## Milestone 3 (Algorithms and Data Structures) information: 
 The Milestone 3 folder contains the program for the Milestone 3 projecct and part 2 of the final project. 
@@ -28,10 +28,9 @@ of two data structures created in C++ (singly linked list and binary tree). The 
 data structure. I initially did not plan to convert this program to Python, but as Python is my favorite language I believed
 it would be beneficial to practice my skills more in the language. In the Python program, a few different traversal algorithms (3) 
 are used for the binary tree while only one (1) is used for the linked list. The program also allows for an Excel sheet
-to be read and be used in the data structures; a similar concept to the C++ file.
+to be read and be used in the data structures; a similar concept to the C++ file. The Excel file is different from the one in 
+the C++ program; containing different data and variables.
 
-The Excel file is different from the one in the C++ program; containing different data and variables.
-
-*Please use the included .xlsx file for using the program!* 
+**Please use the included .xlsx file for using the program!**
 
 ## Milestone 4 (Databases) information: 
