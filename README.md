@@ -40,5 +40,6 @@ project. I followed a video guide for creating most of the server and implementi
 mongoose, express, and node. The main project contains a server which has a few different models. The user is able to 
 use CRUD operations to create, read (get), update, and delete documents from the database. The database uses MongoDB
 to hold the information, including index, schema, and documents. Database is ran on Local Host - port 3000.
+This project is based off of a guide from: https://www.youtube.com/watch?v=fgTGADljAeg&ab_channel=WebDevSimplified
 
 **There are quite a few files and required setups for this project so it may be difficult to test**
