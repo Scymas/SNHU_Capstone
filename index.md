@@ -14,8 +14,23 @@
 
 ## Self - Assessment: 
 
+#### Overview:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are many different aspects to my programming projects that I believe showcase my strengths in the computer science industry. I think to start, converting a program from Java to Python was a good way of showing my ability to functionally use two different languages. I think that code conversions can be extremely useful in the computer science industry, and this helped to showcase my ability. The data structures and algorithms project were based off of two C++ programs that contained a parsing function, and also used binary trees and linked lists. I decided to implement these data structures and put them into a new program in Python. This new project had many improvements from the original, primarily pertaining to speed and how the menu functions work. I think this project showcases my understanding of object-oriented programming and algorithms, including traversal methods and search options. Lastly, the database I created in MongoDB helped to show my understanding of databases and how to correctly implement a restful API with CRUD operations. Although I do not plan on being a database administrator, having an understanding is important. 
 
+#### Team Environments:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When it comes to collaborating in a team environment, I believe that I learned the most from using Git. I have never used Git before, so learning how to commit, pull, and set up a dashboard helped me to better understand it. I think that this is the primary source of team environments and collaboration. Since multiple people will be uploading code to Git using different branches, pull requests, and other methods. I think that knowing how to use Git is particularly important for any team environment. The same holds true for any repository. 
 
+#### Communicating to Stakeholders:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I do not think that my projects directly communicate with stakeholders, but I believe what I have written about them can. I think the most important thing is that I had a clear derivative for each of my programs and was able to closely meet those goals. Although some of them may have ended different in the final deployment; they follow their initial goals closely. It is important when communicating to stake holders that you can establish what your project will do, how it can be implemented, and how you will complete the project. I think if I were told to explain to a stakeholder how I would correctly implement a data structure I could show them something such as the work in my Milestone three project. 
+
+#### Data Structures and Algorithms
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data structures and algorithms were the primary focus of my second artifact. I think that I was able to convey my understanding of data structures in this artifact pretty well. I used both a singly linked list and a binary tree for the data structures. Each of these methods hold data in different ways. I believe having two data structures instead of one was beneficial to showing my ability of creating data structures. I also used a few different traversal methods for these data structures. These algorithms allow for traversing through the data structures at a quick efficiency, along with searching through the linked list correctly. Although the algorithms are fairly simple, I believe I implemented them pretty well in conjunction with the .xlsl files and reading and writing included with Pandas. Data structures and algorithms are the backbone to a large amount of software engineering, and I believe I was able to correctly convey my skill in these categories.
+
+#### Software Engineering and Databases
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software engineering is the focus of all of the projects really. Although, the focus of converting Java to Python was my main concentration for this objective. I also believe I showed my software engineering skills in the data structures program and the database. Converting the Java program to Python was a bit challenging but I believe I was able to do this correctly and even make improvements upon the original code. The database program made use of many different frameworks and packages; all of which led to a functional database in MongoDB. Implementing some more abstract things too such as the Ubuntu Bash shell helped to make this database perform correctly. I think I struggled with the database project the most, but it was able to show that I at least have a grasp on databases and how to correctly implement them into a project.
+
+#### Reason for Inclusion: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I chose the three artifacts I did since I believe they show different skills in the computer science industry. The code conversion focuses on my software engineering and language skills. The data structures focus primarily on my object-oriented programming skills. Lastly, the database focuses on my understanding of how to create and implement a database. Although these programs do not exactly function together, they all show separate skills that I think are extremely useful when programming. Overall, I believe I was able to convey my skills and accurately portray them on my portfolio and am looking forward to what the future brings for me with software engineering. 
 
 ## Milestone 1 - Video 
 
@@ -807,21 +822,133 @@ def main():
 ## Milestone 4 - Databases
 #### Using MongoDB, Node.js, Mongoose, and Express for a restful API.
 
+#### Artifact Selection:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My artifact for milestone four is a database created using MongoDB, JavaScript, Node.JS, Express, and Mongoose. There are quite a few components for this database, and I found this artifact the most challenging out of all of them. The database is primarily a restful API that uses the standard CRUD methods. MongoDB is used to store information such as indexes, documents, and models. The primary server and API code is done in JavaScript, while heavily making use of Mongoose and Express. One of the main things I wanted to do with this project was to integrate a web application. This proved a bit too challenging for me as my knowledge of databases is pretty limited. I decided that a restful API would be more manageable. 
+
+#### Reason for Inclusion:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I believe this artifact is an important inclusion to my portfolio due to databases being a quite common thing in the industry. Databases are commonly implemented in nearly any service; especially those hosted online. I think that correctly implementing a database is a good show of skill and how versatile my development skills can be. Since there was no previous artifact (I have no saved MongoDB code from previous classes), I had to create something from scratch. It is important to note that I followed a guide for the creation of my restful API (which is referenced in the code and in this paper). I think that the creation of this artifact shows that I understand the basics of a database and also API’s, along with properly implementing CRUD operations. 
+
+#### What the code does:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The database is based off of creating documents that contain information about cats. The code allows for a user to insert a new document whenever they use the ‘route.rest’ file. There are other CRUD operations in this file as well, such as updating a particular document, reading all documents, finding a document based on id, or deleting a document. There is also a server file located within the artifact that contains most of the routing and hosting information. There is another file that contains the primary schema which holds the document information and variables for the cat. These variables are all strings that contain information such as the cat’s name, age, gender, and color. All of these documents are stored withing the MongoDB database, which runs off the local host. 
+
+#### Course Requirements: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I believe that I met the course requirements in that I showed the ability of manipulating data. This can be primarily seen with the CRUD operations in the program. I think that I also showed the use of innovative skills, such as using different frameworks and correctly implementing node.js. I think the primary course outcome is just showing that I understand how to create a database and fill it with documentation. This can be seen throughout the artifact. 
+
+
+#### Challenges and What I Learned: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As I said before, this was definitely the most challenging artifact for me. I believe that databases can be pretty complicated as they are quite different from regular programming. I am also not remarkably familiar with JavaScript or any of its frameworks. This definitely made implementing this project correctly a challenge. Most of the MongoDB creation is done automatically in the program files so this was a bit easier to implement. It also was a bit confusing get all the correct packages to work. One other thing was having to get the ubuntu bash shell onto windows and working correctly in visual studio. Overall, I found this project interesting and believe it has helped me with better understanding databases and their objectives. 
+
+#### References: 
+
+Web Dev Simplified (2019, May 14). Build a REST API With Node.js, Express, &MongoDB. Retrieved from https://www.youtube.com/watch?v=fgTGADljAeg&ab_channel=WebDevSimplified
+
+Installing. (n.d.). Retrieved October 20, 2020, Retrieved from https://expressjs.com/en/starter/installing.html
+
+## Code Snippits:
+
+#### Server:
+```javascript
+console.log(process.env.DATABASE_URL) // initialize the dotenv file
+
+const env = require('dotenv').config()
+const express = require("express"); // Initialize express (node.js)
+const app = express();
+const mongoose = require("mongoose"); // Initialize mongoose (used for MongoDB modeling)
+
+// This uses mongoose to connect the the local host on port 3000
+mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+const db = mongoose.connection // Create database equal to the connecction 
+
+app.use(express.json())
+
+const aRouter = require("./animals/cats.js") // Router for cats information 
+app.use("/cats", aRouter)
+
+// Connects to port 3000 and alerts user to server start
+app.listen(3000, () => console.log("Server Started - SNHU Capstone"))
+````
+
+#### Models:
+```javascript
+
+const mongoose = require("mongoose")
+
+//  Schema for containing cat information 
+//  Cat name, age, color, gender, and eye color are stored here
+const catschema = new mongoose.Schema({
+
+    name: {
+        type: String,
+        required: true // Ensure that each type is required
+    },
+
+    age: {
+        type: String,
+        required: true
+    },
+
+    color: {
+        type: String,
+        required: true
+    },
+
+    gender: {
+        type: String,
+        required: true
+    },
+
+    eyeColor: {
+        type: String,
+        required: true
+    },
+
+})
+
+module.exports = mongoose.model("Cats", catschema)
+
+```
+
+#### A Few CRUD Methods: 
+
+``` javascript
+router.get("/", async (req, res) => {
+    
+    const cats = await Cats.find()
+    res.json(cats)
+})
+
+// Get specific - uses ID for get, returns one entry containing = id
+
+router.get("/:id", getCats, (req, res) => {
+    res.json(res.cat)
+
+})
+
+// Post a new 'cat' -> requires the different variables which are stored in the db 
+
+router.post("/", async (req, res) => {
+    const cats = new Cats({
+        name: req.body.name,
+        age: req.body.age,
+        color: req.body.color,
+        gender: req.body.gender,
+        eyeColor: req.body.eyeColor
+    })
+    const newCat = await cats.save()
+    res.json(newCat)
+})
+```
+
+#### MongoDB Funcitonality: 
+
+![Image of MongoDB](https://raw.githubusercontent.com/Scymas/SNHU_Capstone/master/Milestone4/pictures/Mongo-Host.PNG "MongoDB")
+
+#### Crud Operations (Documents 1): 
+
+![Image of CRUD1](https://raw.githubusercontent.com/Scymas/SNHU_Capstone/master/Milestone4/pictures/Documents1.PNG "CRUD Example 1")
+
+![Image of CRUD2](https://raw.githubusercontent.com/Scymas/SNHU_Capstone/master/Milestone4/pictures/Documents2.PNG "CRUD Example 2")
 
 
 
-
-## Code Examples:
-
-
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Scymas/SNHU_Capstone/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contactt
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Thanks For Viewing My ePortfolio! 
