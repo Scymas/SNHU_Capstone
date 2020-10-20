@@ -530,6 +530,14 @@ if __name__ == "__main__":
 
 #### References:
 
+Python - Data Structure. (n.d.). Retrieved from https://www.tutorialspoint.com/python_data_structure/index.htm
+
+Python - Tree Traversal Algorithms. (n.d.). Retrieved from https://www.tutorialspoint.com/python_data_structure/python_tree_traversal_algorithms.htm
+
+Trambadiya, N. (2019, October 15). Using Python Pandas With Excel. Retrieved from https://medium.com/better-programming/using-python-pandas-with-excel-d5082102ca27
+
+Working with Python Pandas and XlsxWriter. (n.d.). Retrieved from https://xlsxwriter.readthedocs.io/working_with_pandas.html
+
 
 #### Here are some snippits from my Python project:
 
