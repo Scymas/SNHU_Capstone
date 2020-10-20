@@ -1,6 +1,26 @@
 # Schuyler Enneman - SNHU Capstone ePortfolio
 ## CS-499
 
+------------------------------------------------------------
+
+### This portfolio contains three programming projects, a video, and a self assessment
+### Final - Self Assessment
+### Milestone 1 - Code Review and Plans (Video)
+### Milestone 2 - Software Design and Engineering (Python)
+### Milestone 3 - Data Structures and Algorithms (Python) 
+### Milestone 4 - Databases (MongoDB - JavaScript - Node.JS)
+
+-------------------------------------------------------------
+
+## Self - Assessment: 
+
+
+
+
+## Milestone 1 - Video 
+
+My initial code narration and guide can be found here: https://www.screencast.com/t/ogUNCLPqJ
+
 ## Milestone 2 - Software Design and Engineering
 ### Transfer a project into a different language 
 
@@ -19,6 +39,11 @@
 
 #### What I learned: 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I learned a few things from converting this artifact from Java to Python. One of those things is how different but also similar these languages can be. Things tend to be a bit more simplified in Python but implementing some features can be a bit more confusing than in Java. Converting a program from one language to another is something I have never done before, so it was initially a bit challenging. The overall code though is not that complex, so the main challenge came from brushing up on my Python knowledge and finding ways to implement certain functions. I learned that there are quite a few things that can be done when it comes to converting programs. Particularly, it is a bit more open with what you can do with a converted program. There were some changes I made that improved functionality and also made the code cleaner and easier to understand. Overall, I found it fun and interesting to convert my Java program to Python and could see myself learning how to do this better, along with learning how to effectively use two languages at once. 
+
+
+#### References:
+
+S. (2020, April 21). MD5 hash in Python. Retrieved from https://www.geeksforgeeks.org/md5-hash-python/
 
 #### Below I will show both my original Java source code along with the updated and new Python code. 
 
@@ -477,6 +502,311 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+
+## Milestone Three - Data Structures and Algorithms:
+## Implement Data Structures and Algorithms from C++ into Python
+
+#### Artifact Selection:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My artifact for milestone three is an amalgamation of two different C++ data structure programs that is also converted into Python. These C++ programs are from my CS-260 class that I took a few semesters ago. I know that for my first artifact I decided to do a Python conversion, but I decided to do the same thing here. I was having trouble coming up with ways to improve the already implemented data structures, as they were already operating pretty quickly with their respective algorithms. I instead decided that it would be more beneficial to me to practice doing algorithms and data structures in Python. C++ is a much more object-oriented language than Python is, but after quite a bit of research and development I was able to implement some of the data structures from C++ into a Python project. 
+
+#### Options:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the main things that I had to consider was if I wanted to simply make improvements to the program in C++ or to convert it into a Python project as well. Technically the Python project is two C++ projects combined. To me, the overall goal of the second artifact was to show knowledge and capability of creating data structures and using algorithms to traverse or access them. My original C++ projects I had some trouble with due to them not functioning up to speed and having some errors. I decided since Python is my language focus that I could attempt to convert some of these data structures into Python. 
+
+#### Choices:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are quite a few components to this artifact that are different than the previous submission (milestone two). For one, this artifact makes use of the classes and class objects, which are essential for object-oriented programming in Python. There is also the inclusion of reading and writing to an Excel spreadsheet. The original code in C++ used a csv parser to write and read to a csv file. In the case of Python, I decided to use an Excel spreadsheet while using a few different packages and libraries to support the functionality. The Excel spreadsheet contains two categories: fruits and amounts. These do not have any specific meaning but are there primarily for testing. This spreadsheet data can be written to within the program, along with having its data pulled into the data structures. Although, the implemented functionality of this (with data structures) is limited. 
+
+
+#### Data Structures and Traversal: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The two primary data structures used in this program are a singly linked list and a binary tree. The singly linked list only contains one append method, which is to the front. The singly linked lists use nodes to traverse through the data elements; this is done by setting the pointer to the following node. The binary tree is pretty simple in that a total of ten nodes can be added to the root within the function (user inputted). The binary tree contains the data, left pointer, and right pointer. These pointers connect to each child (branch) on either side of the tree. The nodes are created by comparing the value of the node to the value of the parent node (higher branch). There are a few pretty standard ways to implement a binary tree in Python, so I used those methods. I also decided to include three methods of binary tree traversal, which are pre-order, in-order, and post-order. An empty list is used for the traversal in each method, which holds either the left node, right node, or parent node. This is repeated until each node has been passed through. One thing to note is how different pointers function in Python compared to C++. In C++ they are much more complex, particularly dealing with memory allocation. In Python they are a bit more ‘pre-determined’ and easier to implement for these data structures. 
+
+
+#### Course Requirements: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I believe that this program meets the course requirements in that innovative skills and techniques are used for accomplishing goals. My goal was being able to correctly implement algorithms and data structures along with having functionality to write and read from an Excel spreadsheet. I think that I was able to achieve these things in fairly intuitive ways and with keeping the code clean. One of the problems with the C++ code was how messy and complex the code was originally. I believe that the program also solves logic problems involving algorithms and data structures. For example, one of the functions allows for the user to enter 10 objects (data) into a binary tree. These objects create new nodes which are traversed according to the user’s choice. This will change how the binary tree is displayed and show a few different ways of traversing with algorithms. Using multiple libraries such as Pandas for reading Excel data and openpyxl for writing to Excel data can also be considered an intuitive way to reach my goal in the program. By using these libraries, I was able to list the excel data cleanly and allow users to add their own data. 
+
+
+#### Challenges and What I Learned: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I found this artifact much more challenging than the previous milestone’s. One of the reasons for this was correctly implementing the classes. I had to look through quite a few recourses to get a correct way of implementing them with data structures. I also had some challenges using Pandas correctly and had to install some specific packages to get the Excel data to function correctly. I believe this would have been easier with a csv file but I wanted to use a direct xlsx file type. Another challenge was attempting to do the data structures similarly to the C++ program. I think the most important thing for me from this milestone is that I was able to learn some object-oriented programming in Python. This is a subject I never really worked on in Python, so it was especially useful for me to be able to implement this in a language I prefer. Overall, I think there was a few more instances of data structures I could probably have used. I also wish that I was able to better implement the Excel data into the data structures, but I think what I have is a good bases and shows at least an understanding of the functionality of data structures and sort algorithms. 
+
+#### References:
+
+
+#### Here are some snippits from my Python project:
+
+#### Classes:
+```python
+
+# Class for linked list - Creates node containing head and next pointer
+
+class node:
+    def __init__(self, data=None):  # 'Constructor'
+        self.data = data
+        self.next = None
+
+
+# Linked list class - Contains linked list print and add node
+# Nodes are added to the front of the list vs the back
+# There is only one traversal method for this data structure
+
+class linkedList:
+    def __init__(self):  # 'Constructor'
+        self.head = node()  # head node
+        self.tail = None  # Tail set to none
+        self.length = 0  # Length 0
+
+    # Add node to the front of the linked list
+
+    def addNodeF(self, newData):
+        newNode = node(newData)
+
+        # New node is added to the head of the list
+
+        newNode.next = self.head
+        self.head = newNode
+
+    # For printing linked lit
+
+    def printList(self):
+        pn = self.head  # set head
+        while pn:
+            print(pn.data)  # print data
+            pn = pn.next  # set to next
+
+
+# Class for binary tree and search - Binary tree search based on code
+
+class treeNode:
+    def __init__(self, data=None):  # data set to none initial* -- 'Constructor'
+        self.data = data
+        self.left = None  # left branch
+        self.right = None  # right branch
+
+    # Add the tree - creates tree based on nodes left / right
+
+    def addTree(self, data=None):
+        if data == self.data:
+            return
+
+        # go left branches (child)
+
+        if data < self.data:
+            if self.left is None:
+                self.left = treeNode(data)
+            else:
+                self.left.addTree(data)
+
+        # go right branches (child)
+
+        else:
+            if self.right is None:
+                self.right = treeNode(data)
+            else:
+                self.right.addTree(data)
+                    # Pre order traversal
+
+    def traversal(self, root=None):
+        elements = []  # list object for elements
+        if root:
+            elements.append(root.data)  # current node value
+            elements += self.traversal(root.left)  # traverse left branch from root
+            elements += self.traversal(root.right)  # traverse right branch from root
+
+        return elements  # Returns elements[]
+
+    # Post (reverse) order traversal
+
+    def postTraversal(self, root=None):
+        elements = []
+        if root:
+            elements = self.postTraversal(root.left)  # ""
+            elements += self.postTraversal(root.right)  # ""
+            elements.append(root.data)
+
+        return elements
+
+    # In order traversal - for
+
+    def inTraversal(self, root=None):
+        elements = []
+        if root:
+            elements = self.inTraversal(root.left)  # ""
+            elements.append(root.data)
+            elements += self.inTraversal(root.right)  # ""
+
+        return elements
+```
+
+#### Example of Traversal in Binary Tree:
+```python
+# Inverse traversal tree function
+
+def userTreeSearchIn():
+    menuLoop = True
+    root = treeNode("Root")  # Assign root node to s, "Root"
+
+    while menuLoop is True:  # loop for menu
+
+        print("Tree root is word 'Root' - Branches are created alphabetically")
+        print("Would you like to add a new leaf? (y/n)")
+        yesNo = input()
+
+        if yesNo in ["y", "Y"]:
+
+            # Loop for user to enter 10 'objects' which will be put into the binary tree
+
+            print("Enter data (10 objects): ")
+            for i in range(10):
+                tree = raw_input()
+                root.addTree(tree)
+
+            print("\n")
+            print(root.inTraversal(root), "\n")  # Traversal for printing tree
+            menuLoop = False  # Ends menu loop
+
+        elif yesNo in ["n", "N"]:
+            menuLoop = False  # Ends menu loop
+
+        else:
+            print("Error, please enter y or n\n")
+            continue  # loop
+
+```
+
+#### Example of Singly Linked List Search:
+
+```python
+
+def listSearch(fruitData, amountData):
+    menuLoop = True
+    fruits = fruitData
+    amounts = amountData
+    lst1 = []  # List for fruit / amount
+
+    list1 = linkedList()
+    list1.head = node(fruits)  # head node is set to fruits (spreadsheet)
+    n2 = node(" ")  # space
+    n3 = node(amounts)  # node 3 is set to amounts
+
+    # Set node / list order
+
+    list1.head.next = n2
+    n2.next = n3
+
+    while menuLoop is True:  # loop
+
+        print("Would you like to add a new node? (y/n)")
+        yesNo = input()
+
+        if yesNo in ["y", "Y"]:
+
+            # Iterates ten times for user objects
+            # These objects are saved to a list
+
+            print("Enter new node: ")
+            print("Enter 10 objects: ")
+            for i in range(10):
+                n4 = raw_input()  # Raw input in list
+                lst1.append(n4)  # Appends list
+
+            list1.addNodeF(lst1)  # Puts list into front node
+            list1.printList()  # Displays linked list
+            print("\n")
+            menuLoop = False  # Ends loop
+
+        elif yesNo in ["n", "N"]:
+            list1.printList()  # Displays linked list w/o user data
+            print("\n")
+            menuLoop = False  # Ends loop
+
+        else:
+            print("Error, please enter y or n\n")
+            continue  # loop
+
+
+```
+
+#### Working with .xlsx Files: 
+
+```python
+
+def addData():
+    addLoop = True
+
+    while addLoop:  # Loop for y/n selection
+
+        print("Please type the name of a fruit: ")
+        userFruit = input()  # Input for fruit
+
+        print("Please type the amount of fruit: ")
+        userAmount = input()  # Input for amount of fruit
+
+        # Data frame for adding data to the excel spreadsheet
+        df2 = pd.DataFrame({"Fruits": [userFruit], "Amounts": [userAmount]})
+
+        # Setup writer using openpyxl
+        writer = pd.ExcelWriter("FruitList.xlsx", engine="openpyxl")
+
+        # Load spreadsheet as workbook
+        writer.book = load_workbook("FruitList.xlsx")
+
+        # Copies current loaded spreadsheet
+        writer.sheets = dict((ws.title, ws) for ws in writer.book.worksheets)
+
+        # Reads excel file
+        reader = pd.read_excel(r'FruitList.xlsx')
+
+        # Writes to the sheet; no index or header setting
+        df2.to_excel(writer, index=False, header=False, startrow=len(reader) + 1)
+
+        # Closes writer for other inputs
+        writer.close()
+
+        print("Data added\nAdd more data? (Y/N)")
+
+        # Choice to add more data or return to menu
+        yesNo = input()
+
+        if yesNo in ['y', 'Y']:
+            continue  # loop
+
+        elif yesNo in ['n', 'N']:
+            addLoop = False  # Ends loop
+            main()  # main call
+        else:
+            print("Error, Returning to menu\n")
+            break  # break loop
+```
+
+#### Using Pandas:
+``` python
+
+def main():
+    # Import the data sheet from Excel (simple)
+
+    # Pandas reads excel spreadsheet and assigns it to a variable
+
+    df2 = pd.read_excel("FruitList.xlsx", header=None, names=["Fruits", "Amounts"])
+
+    # The two main categories are converted to lists (Fruit and Amounts)
+    # The variables are declared here to be passed to other functions
+
+    fruits = df2["Fruits"].values.tolist()
+    amounts = df2["Amounts"].values.tolist()
+    print("Data Loaded!\n")
+
+```
+
+## Milestone 4 - Databases
+#### Using MongoDB, Node.js, Mongoose, and Express for a restful API.
+
+
+
+
+
+## Code Examples:
+
+
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
