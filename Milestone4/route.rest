@@ -1,0 +1,42 @@
+# File for GET DELETE POST and PUT
+# This allows user to manipulate the data within the database
+# Options include; getting all posts, getting a post by ID -
+# Deleting a post by ID, posting a new post with inputted data
+# or Updating a post by ID
+
+# These are the CRUD operations -- 
+
+# Get all
+GET http://localhost:3000/cats
+###
+
+# Get one
+GET http://localhost:3000/cats/5f8f2310d756424b4030ba6d
+###
+
+# Delete one
+DELETE http://localhost:3000/cats/5f8f2310d756424b4030ba6d
+###
+
+# Post one
+POST http://localhost:3000/cats
+Content-Type: application/json
+
+{
+    "name": "Aurora",
+    "age": "One Year Old",
+    "color": "Black",
+    "gender": "Female",
+    "eyeColor": "Green"
+
+}
+###
+
+# Update one
+PATCH http://localhost:3000/cats/5f8f210097c364508822a86f
+Content-Type: application/json
+
+{
+    "name" : "Flabbo",
+    "age" : "Twelve years old"
+}
