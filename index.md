@@ -4,8 +4,23 @@
 ## Milestone 2 - Software Design and Engineering
 ### Transfer a project into a different language 
 
-For this project I took a Java project from my IT-145 class and converted it into Python. 
-Below I will show both my original Java source code along with the updated and new Python code. 
+#### Artifact explanation:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My artifact for milestone two is based off of a final project from my IT-145 course. The project is a Java program that implements a ‘log in’ system along with an MD5 password hashing function. I created this artifact quite awhile ago initially as it was one of my earlier programming classes at SNHU. The artifact that is included in my portfolio is the same essential program but converted into Python. The converted Python code has some changes made to it but is a similarly functioning program. 
+
+#### Reason for inclusion in portfolio:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I included this artifact as I believed converting a program from one language to another is a valuable skill in the computer science industry. Python is my preferred language; and although I have not done too much work with it, I found this inclusion to be beneficial to my learning and skill. I chose to convert this program primarily due to me believing I could convert it and keep it pretty identical to the initial code. Although, I did decide to add some improvements to the functionality. One of these improvements was using lists to store pre-determined passwords in a separate function. In the original Java code, I had done this with a pretty lengthy comparison statement. I also had most of the comparisons done within the main function. I decided it would be better to implement these comparisons into separate functions in the Python version.
+
+#### What the program does: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The general idea of the program is to open a .txt file based on the user’s login information and print it out to the user. The login information contains a user type, a username, and a user password. The password and username are inputted while the type is assigned in the program based on the user’s credentials. The user’s type is passed along with the password to an MD5 conversion function. There is a library in Python that allows for an easy MD5 conversion, which is what I used. The hashed password is then passed with the type and compared to determine which file is opened. Once the file is opened it is printed to the screen containing the information. The user can then opt to logout of the system or return to the main menu. 
+
+#### Reaching goals:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My main goal with this artifact was to show my ability to convert one piece of code to another language. I also decided I could make some minor improvements and clean the code up a bit. My main course outcome with this project was to show innovative skills and techniques for accomplishing goals. In this case the innovative techniques would be converting the language. I believe this is a good skill to have and something I would like to be able to do efficiently. Converting a program from one language to another can align with specific goals in the industry; such as a company deciding to switch their programs into a different language. This can also be appliable for changing versions of code, such as switching from Python 2.X to Python 3.X. I think another important technique could possibly be taking advantage of different libraries and packages; particularly for the MD5 hashing. I also included some unit testing for this program, which I believe is another important skill to have. I have not done unit tests in Python before, so they are pretty simplistic; but accomplish the testing I needed.
+   
+
+#### What I learned: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I learned a few things from converting this artifact from Java to Python. One of those things is how different but also similar these languages can be. Things tend to be a bit more simplified in Python but implementing some features can be a bit more confusing than in Java. Converting a program from one language to another is something I have never done before, so it was initially a bit challenging. The overall code though is not that complex, so the main challenge came from brushing up on my Python knowledge and finding ways to implement certain functions. I learned that there are quite a few things that can be done when it comes to converting programs. Particularly, it is a bit more open with what you can do with a converted program. There were some changes I made that improved functionality and also made the code cleaner and easier to understand. Overall, I found it fun and interesting to convert my Java program to Python and could see myself learning how to do this better, along with learning how to effectively use two languages at once. 
+
+#### Below I will show both my original Java source code along with the updated and new Python code. 
 
 ### Java Code: 
 
