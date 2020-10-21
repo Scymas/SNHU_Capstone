@@ -34,7 +34,7 @@
 
 ## Milestone 1 - Video 
 
-My initial code narration and guide can be found here: https://www.screencast.com/t/ogUNCLPqJ
+My initial code narration and guide can be found here: [https://www.screencast.com/t/ogUNCLPqJ](https://scymas.github.io/SNHU_Capstone/ "Video Link")
 
 ## Milestone 2 - Software Design and Engineering
 ### Transfer a project into a different language 
