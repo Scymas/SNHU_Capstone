@@ -34,7 +34,7 @@
 
 ## Milestone 1 - Video 
 
-My initial code narration and guide can be found here: [https://www.screencast.com/t/ogUNCLPqJ](https://www.screencast.com/t/ogUNCLPqJ "Video Link")
+My initial code narration and guide can be found here: [LINK](https://www.screencast.com/t/ogUNCLPqJ "Video Link") https://www.screencast.com/t/ogUNCLPqJ
 
 ## Milestone 2 - Software Design and Engineering
 ### Transfer a project into a different language 
