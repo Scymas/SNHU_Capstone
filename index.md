@@ -520,7 +520,7 @@ if __name__ == "__main__":
 
 
 ## Milestone Three - Data Structures and Algorithms:
-## Implement Data Structures and Algorithms from C++ into Python
+### Implement Data Structures and Algorithms from C++ into Python
 
 #### Artifact Selection:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My artifact for milestone three is an amalgamation of two different C++ data structure programs that is also converted into Python. These C++ programs are from my CS-260 class that I took a few semesters ago. I know that for my first artifact I decided to do a Python conversion, but I decided to do the same thing here. I was having trouble coming up with ways to improve the already implemented data structures, as they were already operating pretty quickly with their respective algorithms. I instead decided that it would be more beneficial to me to practice doing algorithms and data structures in Python. C++ is a much more object-oriented language than Python is, but after quite a bit of research and development I was able to implement some of the data structures from C++ into a Python project. 
