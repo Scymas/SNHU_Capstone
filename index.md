@@ -939,7 +939,7 @@ router.post("/", async (req, res) => {
 })
 ```
 
-#### MongoDB Funcitonality: 
+#### MongoDB Functionality: 
 
 ![Image of MongoDB](https://raw.githubusercontent.com/Scymas/SNHU_Capstone/master/Milestone4/pictures/Mongo-Host.PNG "MongoDB")
 
